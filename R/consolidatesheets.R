@@ -19,7 +19,7 @@ consolidatesheets <- function(path, verbose = FALSE) {
          read_excel,            # the read function
          col_types = "text",    # extra arguments for the read function
          path = path) %T>%
-    {if (verbose) str(.)}  %>%    # for manual compare with final results
-    do.call('rbind', .)  # bind the data frames in the list into a single data frame
-                         # and return it to the caller
+    {if (verbose) str(.)}  %>%  # for manual compare with final results
+    do.call('rbind', .)         # bind the data frames in the list into a single data frame
+                                # and return it to the caller
 }
