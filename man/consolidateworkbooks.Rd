@@ -4,18 +4,21 @@
 \alias{consolidateworkbooks}
 \title{Consolidate multiple Excel workbooks into a single workbook file}
 \usage{
-consolidateworkbooks(verbose = FALSE)
+consolidateworkbooks(workbookfilenames, targetfilename, verbose = FALSE)
 }
 \arguments{
+\item{workbookfilenames}{a list of file names to be consolidated}
+
+\item{targetfilename}{the new file to be written as a single page workbook}
+
 \item{verbose}{when \code{TRUE} display processing information}
 }
 \value{
 a single data frame containing all sheets
 }
 \description{
-\code{consolidateworkbooks} is useful for combining multiple
-Excel workbooks and their contained sheets into a single Excel file.
-This function was coded with the assumption all of the workbooks
-and their contained sheets have the same structure.  The user is
-prompted for source files and target file name.
+\code{consolidateworkbooks} takes a list of Excel filenames, reads and
+consolidates the files, writes a new Excel workbook, which
+contains all of the source workbooks and their sheets in a single
+sheet.
 }

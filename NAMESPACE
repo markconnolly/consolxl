@@ -2,6 +2,7 @@
 
 export(consolidatesheets)
 export(consolidateworkbooks)
+export(consolxl)
 importFrom(magrittr,"%>%")
 importFrom(magrittr,"%T>%")
 importFrom(readxl,excel_sheets)
