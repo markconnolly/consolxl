@@ -2,12 +2,14 @@
 % Please edit documentation in R/stopquietly.R
 \name{stopquietly}
 \alias{stopquietly}
-\title{Stop processing nicely}
+\title{Stop processing quietly (without error)}
 \usage{
-stopquietly(message)
+stopquietly(message, ...)
 }
 \arguments{
-\item{message}{the message to display to the user when stoppinh}
+\item{message}{the message to display to the user when stopping}
+
+\item{...}{further arguments for \code{print} function}
 }
 \description{
 Stop the processing with a message.  Usually executed in the context

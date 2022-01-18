@@ -2,13 +2,13 @@ consolidateworkbooks <- function(verbose = FALSE)
 {
   #' Consolidate multiple Excel workbooks into a single workbook file
   #'
-  #' consolidateworkbooks is useful for combining multiple
+  #' `consolidateworkbooks` is useful for combining multiple
   #' Excel workbooks and their contained sheets into a single Excel file.
   #' This function was coded with the assumption all of the workbooks
   #' and their contained sheets have the same structure.  The user is
   #' prompted for source files and target file name.
   #'
-  #' @param verbose when TRUE display processing information
+  #' @param verbose when `TRUE` display processing information
   #'
   #' @return a single data frame containing all sheets
   #'

@@ -9,13 +9,13 @@ consolidatesheets(path, verbose = FALSE)
 \arguments{
 \item{path}{file name of the source Excel workbook}
 
-\item{verbose}{when TRUE display processing information}
+\item{verbose}{when \code{TRUE} display \code{str} of returned data frame}
 }
 \value{
 a single data frame containing all sheets
 }
 \description{
-consolidatesheets is useful for combining multiple sheets of an
+\code{consolidatesheets} is useful for combining multiple sheets of an
 Excel workbook into a single data frame.  It treats all columns as text
 and assumes that the sheets all have the same structure.
 }

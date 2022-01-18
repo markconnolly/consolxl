@@ -7,14 +7,15 @@
 consolidateworkbooks(verbose = FALSE)
 }
 \arguments{
-\item{verbose}{when TRUE display processing information}
+\item{verbose}{when \code{TRUE} display processing information}
 }
 \value{
 a single data frame containing all sheets
 }
 \description{
-consolidateworkbooks is useful for combining multiple
-Excel workbooks and their contained sheet into a single Excel file.
+\code{consolidateworkbooks} is useful for combining multiple
+Excel workbooks and their contained sheets into a single Excel file.
 This function was coded with the assumption all of the workbooks
-and their contained sheets have the same structure.
+and their contained sheets have the same structure.  The user is
+prompted for source files and target file name.
 }
