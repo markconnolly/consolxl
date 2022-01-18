@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: markconnolly
 Maintainer: markconnolly <w.mark.connolly@gmail.com>
 Description: Consolidates user-selected workbooks and their contained
-    worksheets into a single sheet workbook named by the user.
+    worksheets into a single sheet in a workbook named by the user.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
